@@ -29,7 +29,7 @@ body{
 .dark .calculator{
    background: #33393e;
    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25),
-   -15px -15px 20px rgba(255,255,255, 0.1)
+   -15px -15px 20px rgba(100,100,100, 0.1)
 }
 .calculator .button {
    position: relative;
@@ -57,8 +57,10 @@ body{
 }
 .dark #value{
    color: dodgerblue;
-   box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5),
-   -15px -15px 20px rgba(255,255,255, 0.1)
+   box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4),
+   -15px -15px 20px rgba(50,50,50, 0.1);
+   border: 4px solid #282c2f;
+   background-color: #171b1d;
    
 }
 .calculator .button span{
@@ -89,8 +91,8 @@ body{
 .dark .calculator .button span{
    color: #eee;
    border: 2px solid #333;
-   box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.6),
-   -15px -15px 20px rgba(255,255,255, 0.1)
+   box-shadow: 15px 15px 20px rgba(10, 10, 10, 0.4),
+   -15px -15px 20px rgba(100,100,100, 0.1)
 }
 .calculator .button span:active{
    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.1),
