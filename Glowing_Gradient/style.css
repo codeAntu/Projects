@@ -9,13 +9,10 @@ body{
    align-items: center;
    min-height: 100vh;
    background:#000;
+   flex-direction: column;
 }
 h1{
    color: #fff;
-   width: 41%;
-   position: fixed;
-   top: 30%;
-   left: 29.5%;
    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
 }
 .loader{
@@ -23,7 +20,7 @@ h1{
    height: 10px;
    width: 300px;
    background-color: #000;
-   
+   margin: 100px;
    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
 }
 .loader::before{
