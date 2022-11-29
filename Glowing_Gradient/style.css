@@ -12,17 +12,18 @@ body{
 }
 h1{
    color: #fff;
-   width: 30%;
+   width: 35%;
    position: fixed;
    top: 30%;
-   left: 35%;
+   left: 32.5%;
    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
 }
 .loader{
    position: relative;
    height: 10px;
    width: 300px;
-   background-color: #fff;
+   background-color: #000;
+   
    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
 }
 .loader::before{
@@ -32,6 +33,7 @@ h1{
    background: linear-gradient(90deg, #fb0094,#0000ff,#00ff00,#ffff00,#fb0094,#fb0094,#0000ff,#00ff00,#ffff00,#fb0094);
    animation: animate 20s linear infinite;
    background-size: 500%;
+   border-radius: 5px;
 }
 loader::after{
    content: '';
@@ -41,6 +43,7 @@ loader::after{
    animation: animate 20s linear infinite;
    background-size: 500%;
    filter: blur(20px);
+   
 }
 @keyframes animate{
    
