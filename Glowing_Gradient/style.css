@@ -12,10 +12,10 @@ body{
 }
 h1{
    color: #fff;
-   width: 35%;
+   width: 41%;
    position: fixed;
    top: 30%;
-   left: 32.5%;
+   left: 29.5%;
    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
 }
 .loader{
