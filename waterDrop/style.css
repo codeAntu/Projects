@@ -1,0 +1,119 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+   min-height: 100vh;
+   background: #eff0f4;
+   user-select: none;
+   
+}
+
+.container{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 50px;
+   flex-wrap: wrap;
+   gap: 40px 60px;
+}
+.drop{
+   position: relative;
+   height: 250px;
+   width: 250px;
+   box-shadow: inset 20px 20px 20px rgba(0,0,0,.05),
+   25px 35px 20px rgba(0,0,0,0.05),
+   25px 30px 30px rgba(0,0,0,0.05),
+   inset -20px -20px 25px rgba(255,255,255,0.9);
+   transition: 0.5s ease-in-out;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.drop:nth-child(1){
+   border-radius:41% 59% 46% 54% / 56% 39% 61% 44% ;
+}
+.drop:nth-child(2){
+      border-radius:56% 44% 53% 47% / 50% 39% 61% 50% ;
+
+}
+.drop:nth-child(3){
+      border-radius:48% 52% 48% 52% / 56% 45% 55% 44% ;
+
+}
+.drop:hover{
+   border-radius: 50%;
+}
+.drop::before{
+   content: "";
+   position: absolute;
+   top: 42px;
+   left: 47px;
+   width: 27px;
+   height: 27px;
+   background-color:#fff;
+   border-radius: 50%;
+   opacity: 0.9;
+}
+.drop::after {
+   content: "";
+   position: absolute;
+   top: 70px;
+   left: 70px;
+   width: 10px;
+   height: 10px;
+   background-color: #fff;
+   border-radius: 50%;
+   opacity: 0.9;
+}
+
+.content{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-flow: column;
+   font-size: 12px;
+   padding: 30px;
+   gap: 20px;
+}
+
+.content h2{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 40px;
+   width: 40px;
+   background:#eff0f4;
+   border-radius: 50%;
+   box-shadow: inset 2px 5px 10px rgba(0,0,0,0.05),
+   inset -2px -5px 5px rgba(255,255,255,1),
+   3px 3px 3px rgba(0,0,0,.05),
+   3px 3px 3px rgba(0,0,0,.05);
+   font-size: 2em;
+   color: var(--clr);
+   
+}
+a{
+  text-decoration: none;
+  background-color: var(--clr);
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.25);
+  opacity: 0.7;
+  transition: 2s;
+}
+a:hover{
+   opacity: 1;
+   transition: 0.5s;
+}
