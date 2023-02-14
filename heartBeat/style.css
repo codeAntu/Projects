@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+/*font-family: 'Pushster', cursive;*/
 *,
 *::before,
 *::after{
@@ -5,11 +8,18 @@
    margin: 0px;
    box-sizing: border-box;
    
-  
 }
 body{
    background-color: #e5e5fa;
    overflow: hidden;
+}
+.valentine{
+   text-align: center;
+   font-family: 'Pushster', cursive;
+   color: #FF458D;   
+   margin-top: 50px;
+   font-size: 3em;
+   font-weight: 80;
 }
 .pluse{
    height: 150px;
@@ -26,6 +36,7 @@ body{
    place-items: center;
    color: #fff;
    font-size: 70px;
+   
    
 }
 .pluse::before,
