@@ -3,15 +3,12 @@
    padding: 0;
    box-sizing: border-box;
 }
-
 body{
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: #ddd;
-   
+   background-color: #fff;
 }
-
 #main{
    height: 360px;
    width: 240px;
@@ -23,7 +20,6 @@ body{
    bottom: 0 ;
    display: block;
 }
-
 #forehead{
    height: 150px;
    width: 240px;
@@ -103,26 +99,22 @@ body{
    width: 240px;
    display: flex;
    flex-direction: row;
-   
 }
 #aa,#ac{
    height: 30px;
    width: 30px;
    background-color: #A0715C;
-   
 }
 #ab{
    height: 30px;
    width: 180px;
    background-color: #44231c;
 }
-
 #ba,#bg{
    height: 30px;
    width: 30px;
    background-color: #b4866e;
 }
-
 #bb,#bf{
    height: 30px;
    width: 30px;
@@ -143,7 +135,6 @@ body{
    width: 30px;
    background-color: #7e5949;
 }
-
 #cb,#cf,#db,#df,#cc1,#ce1{
    height: 30px;
    width: 30px;
@@ -164,12 +155,10 @@ body{
    width: 30px;
    background-color: #5c3721;
 }
-
 #bottom{
    height: 60px;
    width: 240px;
 }
-
 #xa ,#xe{
    height: 30px;
    width: 60px;
@@ -187,29 +176,27 @@ body{
    background-color:  #A0715C;
    z-index: -1;
 }
-
-
 .me{
-   height: 50px;
-   width: 150px;
-   background-color: #fff;
+   background-color: #f2f2f2;
    position: fixed;
    bottom: 50px;
    border-radius: 10px;
    display: flex;
    align-items: center;
-   
-}
+   box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+   padding: 5px;
+   padding-right: 8px;
+} 
 img{
    height: 40px;
    width: 40px;
    border-radius: 20%;
-   border: 2px solid #fff;
+   border: 1px solid #fff;
    margin: 5px;
    float: left;
 }
 a{
    text-decoration: none;
    color: black;
-   
+   padding: 5px;
 }
